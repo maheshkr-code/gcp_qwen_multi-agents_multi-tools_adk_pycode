@@ -2,6 +2,11 @@
 
 Run $ ollama ps, list, serve to make sure the Qwen9B has been pulled and successfully served locally
 
+
+
+https://github.com/user-attachments/assets/ddf85eb2-ff21-4d99-9134-894006beef39
+
+
 ```
 root@MikkyBoy:/mnt/d/qwen_multiagents_multitools_adk_python# ollama list
 NAME          ID              SIZE      MODIFIED
