@@ -1,12 +1,21 @@
 ### gcp_qwen_multiagents_multitools_adk_pycode
 
+Run $ ollama ps, list, serve to make sure the Qwen9B has been pulled and successfully served locally
+
+```
+root@MikkyBoy:/mnt/d/qwen_multiagents_multitools_adk_python# ollama list
+NAME          ID              SIZE      MODIFIED
+qwen3.5:9b    6488c96fa5fa    6.6 GB    2 weeks ago
+```
+
+```
 python3 -m venv .venv
 source .venv/bin/activate
 pip install google-adk
 adk create currencyagent
 adk run currencyagent
 adk web currencyagent
-
+```
 
 <img width="1918" height="1017" alt="Screenshot 2026-07-28 221106" src="https://github.com/user-attachments/assets/1e9fafce-62af-48c4-a9c1-241689f6f1dc" />
 <img width="1882" height="1101" alt="Screenshot 2026-07-28 221042" src="https://github.com/user-attachments/assets/f3e55d00-23f8-4564-9509-a0d33ca83b5a" />
